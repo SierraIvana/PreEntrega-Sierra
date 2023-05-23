@@ -196,7 +196,7 @@ a:hover {
 
 /* VISTA RESPONSIVE SERVICIOS */
 
-@media screen and (max-width: 710px){
+@media screen and (max-width: 810px){
     .contenedor-servicios {
         display: grid;
         grid-template-rows: 1fr 4fr 4fr;
@@ -209,29 +209,26 @@ a:hover {
         "item-servicios-2"
 
     }
-}
-@media screen and (max-width: 810px){
     .servicios-foto {
         width: 30rem;
-
     }
-}
 
-.item-servicios-2{
-    grid-area: item-servicios-2;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-items: center;
-    margin:2rem;
-}
+    .item-servicios-2{
+        grid-area: item-servicios-2;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        margin:2rem;
+    }
 
-.item-servicios-2 h2{
-    font-size: 3rem;
-}
+    .item-servicios-2 h2{
+        font-size: 3rem;
+    }
 
-.item-servicios-2 p{
-    font-size: 1.5rem;
+    .item-servicios-2 p{
+        font-size: 1.5rem;
+    }
 }
 
 
