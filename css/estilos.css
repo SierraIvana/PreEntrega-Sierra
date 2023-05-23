@@ -55,6 +55,8 @@ a:hover {
     font-size: 3rem;
 }
 
+/* VISTA RESPONSIVE INDEX */
+
 @media screen and (max-width: 1155px) {
     .img-principal{
     background-image:url(../assets/img/imagenprincipal3.png);
@@ -208,7 +210,12 @@ a:hover {
 
     }
 }
+@media screen and (max-width: 810px){
+    .servicios-foto {
+        width: 30rem;
 
+    }
+}
 
 .item-servicios-2{
     grid-area: item-servicios-2;
